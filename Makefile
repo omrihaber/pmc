@@ -16,7 +16,7 @@ CFLAGS      = $(OPTFLAGS) -fPIC
 #CFLAGS 		+= -floop-parallelize-all -ftree-loop-distribution
 
 
-CXX          = g++
+CXX          = g++-13 -std=c++03
 H_FILES     = pmc.h
 
 
